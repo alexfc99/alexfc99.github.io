@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>FORMULARIO</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <!-- <link rel="stylesheet" type="text/css" href="estilosweb.css"> -->
+    <link rel="stylesheet" type="text/css" href="estilosweb2.css">
+  
+    <header>
+        <h1>FORMULARIO</h1>
+        <nav>
+            <ul class="lista">
+                <li class="menu"><a href="miweb2.html"> IR A LA PÁGINA PRINCIPAL</a></li>
+                <li class="menu"><a href="./tabla_generos.html"> IR A LA TABLA DE DEMOGRAFÍA</a></li>
+                </ul>
+          </nav>
+    </header>  
+    <h2>Rellene el siguiente formlario para poder formar parte de la comunidad:</h3>
+    <br>
+    <div id="form">
+    <form action="">
+        <label>NOMBRE:</label>
+        <input type="text" name="usuario" size="30" maxlength="30" placeholder="Escriba aquí su nombre" required>
+        <br>
+        <br>
+        <label>APELLIDO:</label>
+        <input type="text" name="apellido" size="30" maxlength="30" placeholder="Escriba aquí su apellido" required>
+        <br>
+        <br>
+        <label>EMAIL:</label>
+        <input type="email" name="apellido" size="30" maxlength="30" placeholder="Escriba aquí su email" required>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <fieldset>
+        <legend>Marque sus demografías de manga favoritas:</legend>
+        <input type="checkbox" name="Kodomo" >
+        <label>Kodomo</label>
+        <br>
+        <input type="checkbox" name="Shonen" >
+        <label>Shonen</label>
+        <br>
+        <input type="checkbox" name="Shojo" >
+        <label>Shojo</label>
+        <br>
+        <input type="checkbox" name="Seinen" >
+        <label>Seinen</label>
+        <br>
+        <input type="checkbox" name="Josei" >
+        <label>Josei</label>
+        <br>
+        <br>
+        <a class="tabla" href="./tabla_generos.html">Ir a la tabla de demografía.</a>
+    
+    </fieldset>
+        <br>
+        <br>
+        <label class="l1">Introduzca un mensaje presentándose y por que le gustaría formar parte de la comunidad:</label>
+        <br>
+        <br>
+        <textarea id="menasje" name="mensaje_pres" rows="6" cols="50" maxlength="300" required>Introduce texto...</textarea>
+        <br>
+        <br>
+        <footer>
+            Estoy conforme con la política de privacidad de la página
+            <input type="checkbox" name="conforme" required>
+            <br>    
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </footer>
+    </form> 
+</body>
+
+</html>
