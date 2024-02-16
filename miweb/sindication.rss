@@ -10,7 +10,7 @@
             <description>Conoce los mangas más populares de todos los tiempos.</description>
             <image>
             <title>Imagen principal</title>
-            <url>miweb/multimedia/imgsj.jpeg</url>
+            <url>https://alexfc99.github.io/miweb/multimedia/imgsj.jpeg</url>
             <link>https://alexfc99.github.io/miweb/miweb2.html</link>
             <width>90</width>
             <height>36</height>
@@ -22,7 +22,7 @@
             <description>Mira y escucha la entrevista a Kentaro Miura, autor del famoso manga Bersek</description>
             <image>
             <title>Imagen entrevista</title>
-            <url>miweb/multimedia/kentaro.png</url>
+            <url>https://alexfc99.github.io/miweb/multimedia/kentaro.png</url>
             <link>https://alexfc99.github.io/miweb/miweb2.html</link>
             <width>90</width>
             <height>36</height>
@@ -33,7 +33,7 @@
             <description>Si te gusta nuestro contenido, puedes unirte a nuestra comunindad rellenando el siguiente formulario.</description>
             <image>
             <title>Imagen formulario</title>
-            <url>miweb/multimedia/form.jpeg</url>
+            <url>https://alexfc99.github.io/miweb/multimedia/form.jpeg</url>
             <link>https://alexfc99.github.io/miweb/miweb2.html</link>
             <width>90</width>
             <height>36</height>
