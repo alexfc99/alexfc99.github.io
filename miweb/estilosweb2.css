@@ -254,3 +254,72 @@ legend{
   border-width: 2px;
   background-color: whitesmoke;
 }
+@media screen and (max-width: 768px) {
+  
+  nav li {
+      display: block;
+      margin-bottom: 10px;
+  }
+  #form {
+      width: auto;
+  }
+  fieldset {
+    width: auto;
+  }
+  textarea{
+    width: 100%;
+  }
+  input[type=submit]{
+    width: fit-content;
+  }
+  input[type=reset]{
+    width: fit-content;
+  }
+  h2{
+    
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+}
+#form {
+    width: auto;
+    
+}
+fieldset {
+  width: auto;
+}
+textarea{
+  width: 100%;
+}
+input[type=submit]{
+  width: fit-content;
+}
+input[type=reset]{
+  width: fit-content;
+}
+}
+@media screen and (min-width: 1025px){
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+}
+#form {
+    width: 30%;
+}
+fieldset {
+  width: 30%;
+}
+textarea{
+  width: 30%;
+}
+input[type=submit]{
+  width: fit-content;
+}
+input[type=reset]{
+  width: fit-content;
+}
+}
