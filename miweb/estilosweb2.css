@@ -254,3 +254,26 @@ legend{
   border-width: 2px;
   background-color: whitesmoke;
 }
+@media only screen and (max-width: 1023px) {
+  body {
+    padding: 15px;
+  }
+  header {
+    padding: 15px;
+  }
+  #form, fieldset {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  header {
+    padding: 10px;
+  }
+  #form, fieldset {
+    width: 90%;
+  }
+}
